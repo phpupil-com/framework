@@ -1,0 +1,13 @@
+{
+  "name": "phpupil-com/framework",
+  "version": "v1.0.0",
+  "require": {
+    "phpupil-com/framework": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/phpupil-com/framework"
+    }
+  ]
+}
