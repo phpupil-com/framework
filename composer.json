@@ -1,8 +1,21 @@
 {
   "name": "phpupil-com/framework",
+  "description": "phpupil 高性能并发协程框架",
   "version": "v1.0.0",
+  "authors": [
+    {
+      "name": "吴跃忠",
+      "email": "study@phpupil.com",
+      "homepage": "http://phpupil.com/"
+    }
+  ],
   "require": {
-    "phpupil-com/framework": "dev-master"
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPupil\\Framework\\": "src/"
+    }
   },
   "repositories": [
     {
