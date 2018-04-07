@@ -1,7 +1,7 @@
 {
   "name": "phpupil-com/framework",
-  "description": "phpupil 高性能并发协程框架",
-  "version": "v1.0.0",
+  "description": "PHPupil 高性能并发协程框架",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "吴跃忠",
@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.0"
   },
   "autoload": {
     "psr-4": {
