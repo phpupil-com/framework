@@ -1,7 +1,7 @@
 <?php
 /**
  * PHPupil框架启动文件
- * @copyright JungoPhpFramework 深圳俊网网络有限公司 http://www.junnet.net/
+ * @copyright PHPupil Framework http://www.phpupil.com/
  * @author 吴跃忠 <357397264@qq.com>
  */
 namespace PHPupil\Framework;
@@ -49,6 +49,7 @@ class PHPupil
      */
     public function __construct()
     {
+        require_once __DIR__ .'/Helper.php';
         // 设置文件分隔符
         defined('DS') or define('DS', DIRECTORY_SEPARATOR );
         // 检测当前PHP版本,防止PHP版本过低无法使用

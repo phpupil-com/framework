@@ -1,7 +1,7 @@
 <?php
 /**
  * 数据库操作抽象
- * @copyright JungoPhpFramework 深圳俊网网络有限公司 http://www.junnet.net/
+ * @copyright PHPupil Framework http://www.phpupil.com/
  * @author 吴跃忠 <357397264@qq.com>
  */
 

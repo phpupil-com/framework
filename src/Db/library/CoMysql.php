@@ -1,22 +1,32 @@
 <?php
 /**
  * 协程MySql
- * @copyright JungoPhpFramework 深圳俊网网络有限公司 http://www.junnet.net/
+ * @copyright PHPupil Framework http://www.phpupil.com/
  * @author 吴跃忠 <357397264@qq.com>
  */
 namespace PHPupil\Framework\Db;
 
-class CoMysql
+class CoMysql extends AbDatabase
 {
 
     private $link;
 
     /**
      * Mysql constructor.
-     * @param string $db
      */
-    public function __construct($db = '')
+    public function __construct()
     {
+
+    }
+
+
+    /**
+     * 连接数据库
+     * @param $config
+     */
+    public function connect($config)
+    {
+        // TODO: Implement connect() method.
         $this->link = new \Swoole\Coroutine\Mysql();
 
         $this->link->connect([
@@ -30,9 +40,10 @@ class CoMysql
     }
 
 
-
-    private function config($db = '')
+    public function insert()
     {
-
+        // TODO: Implement insert() method.
     }
+
+
 }

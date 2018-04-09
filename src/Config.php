@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @copyright JungoPhpFramework 深圳俊网网络有限公司 http://www.junnet.net/
+ * @copyright PHPupil Framework http://www.phpupil.com/
  * @author 吴跃忠 <357397264@qq.com>
  */
 
@@ -23,6 +23,17 @@ class Config
      * @return void
      */
     public static function init()
+    {
+
+    }
+
+
+    /**
+     * 设置模块配置
+     * @param string $module
+     * @return mixed
+     */
+    public static function insert($module = '')
     {
 
     }
@@ -82,6 +93,7 @@ class Config
                 $values = $values[$item];
                 if( $i == $count_key ){
                     self::$configs[$key] = $value;
+                    $value = $values;
                 }
                 $i++;
             }
