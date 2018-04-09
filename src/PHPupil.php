@@ -49,7 +49,7 @@ class PHPupil
      */
     public function __construct()
     {
-        require_once __DIR__ .'/Helper.php';
+        require_once __DIR__ .'/helper.php';
         // 设置文件分隔符
         defined('DS') or define('DS', DIRECTORY_SEPARATOR );
         // 检测当前PHP版本,防止PHP版本过低无法使用
